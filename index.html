@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: black;
+        }
+        .img{
+            width: 70%;
+        }
+        #main{
+            width: 100%;
+            text-align: center;
+        }
+        .card{
+            display: block ;
+            border: 6px solid white;
+            background-color: black;
+        }
+        .card-title{
+            color: white;
+        }
+        .UU{
+            background-color: black;
+            border-color: black;
+            height: 80px;
+            
+        }
+        input{
+            text-align: center;
+            width: 700px !important;
+            position: relative;
+            left: 20%;
+        
+        }
+        button{
+            position: relative;
+            right: 15%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container "><br>
+    <nav class="navbar bg-body-tertiary ">
+        <div class="container-fluid UU">
+          <!-- <form class="d-flex" role="search"> -->
+            <input class="form-control me-2 " id="inp" type="search" placeholder="Search" aria-label="Search">
+            <button onclick="search()" class="btn btn-outline-light  " type="submit">Search</button>
+          <!-- </form> -->
+        </div>
+      </nav>
+    </div>
+      <br>
+    <div id="main"  class="container">
+
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
